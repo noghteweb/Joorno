@@ -1,0 +1,141 @@
+﻿
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/eot/iranyekanwebbold.eot');
+	src: url('../font/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/eot/iranyekanweblight.eot');
+	src: url('../font/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/eot/iranyekanwebregular.eot');
+	src: url('../font/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+/* Latin fonts (Roboto) */
+
+@font-face {
+	font-family: roboto;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/eot/robotobold.eot');
+	src: url('../font/eot/robotobold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/robotobold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/robotobold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/robotobold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/eot/robotolight.eot');
+	src: url('../font/eot/robotolight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/robotolight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/robotolight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/robotolight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: roboto;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/eot/robotoregular.eot');
+	src: url('../font/eot/robotoregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/robotoregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/robotoregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../font/ttf/robotoregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "joorno";
+  src:url("../font/eot/joorno.eot");
+  src:url("../font/eot/joorno.eot?#iefix") format("embedded-opentype"),
+    url("../font/woff/joorno.woff") format("woff"),
+    url("../font/ttf/joorno.ttf") format("truetype"),
+    url("../font/svg/joorno.svg#joorno") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "joorno" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="jo-"]:before,
+[class*=" jo-"]:before {
+  font-family: "joorno" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jo-insta:before {
+  content: "\61";
+}
+.jo-telegram:before {
+  content: "\62";
+}
+.jo-phone:before {
+  content: "\63";
+}
+.jo-email:before {
+  content: "\64";
+}
+.jo-facebook:before {
+  content: "\65";
+}
+.jo-linkedin:before {
+  content: "\66";
+}
+.jo-twittr:before {
+  content: "\67";
+}
+.jo-search:before {
+  content: "\68";
+}
+.jo-download:before {
+  content: "\69";
+}
+.jo-fax:before {
+  content: "\6a";
+}
+.jo-gplus:before {
+  content: "\6b";
+}
+
