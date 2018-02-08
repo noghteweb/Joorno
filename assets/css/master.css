@@ -1,9 +1,115 @@
 ﻿body {
 	font-family: iranyekan ,roboto ,Arial !important;
 	direction: rtl;
-	background-color: #cdcdcd;
+	background-color: #ffffff;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6,input, textarea {
 	font-family: iranyekan ,roboto ,Arial !important;
 }
+
+.h-100{min-height: 100%;position: relative;}
+body, html {
+  height: 100%;
+	position: relative;
+}
+.overflow-hidden{overflow: hidden;}
+.clearfix{float: none; clear: both;}
+
+ul,li{margin: 0;padding: 0; list-style: none;}
+header{position: absolute;;top:0;right:0;left: 0; height: 90px; z-index: 10; line-height: 90px;}
+header .logo-name{color:#fff; font-size: 17px; font-weight: blod;}
+header ul.page-nav li{display:inline-block;font-size: 16px; font-weight:300; color:#fff; padding: 0 10px;margin-left:40px;}
+header ul.page-nav li a{ padding-bottom: 15px;}
+header ul.page-nav li a.active{border-bottom: 3px solid #00a6ae;}
+header ul.social-ul{direction: ltr;}
+header ul.social-ul li{display: inline-block; font-size: 13px; color: #fff; margin-right: 30px; font-weight: 300;}
+header ul.social-ul li .icon{ vertical-align:sub; margin-right: 7px; font-size: 15px; color: rgba(255,255,255,0.7)}
+header.dark .logo-name{color:#000;}
+header.dark ul.page-nav li{color:#000;}
+header.dark ul.social-ul li{color: #000;}
+header.dark ul.social-ul li .icon{ color: rgba(0,0,0,0.7)}
+
+section.intro{background: url('../img/first-sec-bg.jpg') center; background-size: cover; position:relative;}
+section.intro .slugn-wrp{position: absolute; top: 50%; right: 50%; transform: translate(50%,-90%); display: block; color: #fff; text-align: center;}
+section.intro .slugn-wrp .f-slugn{font-size: 40px; font-weight: bold;}
+section.intro .slugn-wrp .s-slugn{font-size: 17px; font-weight: 300; padding-top: 12px; z-index: 8;}
+section.intro .cat-dis{position: absolute; right: 0; left: 0; bottom: 0; z-index: 8;}
+section.intro .cat-dis .cat-card-wrp{text-align: center; z-index: 8}
+section.intro .cat-dis .cat-card-wrp .cat-card{display: inline-block;;width: 160px;height: 160px; background: #fff; font-size: 17px; text-align: center; font-weight: bold; color: #00a6ae; padding-top: 50px}
+section.intro .cat-dis .row{position: relative;}
+section.intro .cat-dis .cat-bg{position: absolute; background: #d7e228; bottom: 0;right: 0;left: 0; height: 80px; z-index: 5;}
+
+section .about-us{background: #d7e228; text-align: center; color: #000; padding-top:50px; padding-bottom: 120px;}
+section .about-us .title{font-size: 25px; padding-bottom: 30px;}
+section .about-us .text{font-size: 16px; font-weight: 300; line-height: 28px;}
+section .about-us .text p{padding-bottom: 30px;}
+section.clients{padding: 30px 0 50px;}
+section.clients .section-title{font-size: 23px; text-align: center; border-bottom: 1px solid #e3e3e3; color: #000;}
+section.clients .section-title span{ display: inline-block;; border-bottom: 5px solid #00a6ae; padding: 10px; margin-bottom: -3px;}
+
+section.clients .clinets-slider{padding-top: 30px;}
+section.clients .clinets-slider .item{padding: 10px; text-align: center;}
+section.clients .clinets-slider .item img{max-width: 100px;}
+
+footer{background: #000; color: #fff; padding: 75px 0 60px 0;}
+footer .footer-joorno{font-size: 12px; font-weight: lighter;}
+footer .footer-joorno .project{margin-bottom: 30px;}
+footer .footer-joorno ul li{margin-bottom: 30px;}
+footer .contacts{font-size: 14px; font-weight: 300;margin-bottom: 20px;}
+footer .social-contacts{font-size: 14px; font-weight: 300;margin-bottom: 20px; padding-top: 5px;}
+footer .social-wrp .icon{font-size: 17px; color: rgba(255,255,255,0.8)}
+footer .contact-info{font-size: 14px; font-weight: 300; color:#fff;}
+footer .contact-info tr td{padding-left: 5px; height: 36px}
+footer .contact-info tr td .icon{font-size: 15px; color:rgba(255,255,255,0.7); vertical-align: middle; margin-left: 15px}
+
+section.project-sec {padding-top: 140px; padding-bottom: 50px;}
+section.project-sec .grid-item{height: 470px; margin-bottom: 30px;}
+section.project-sec .joorno-doc{background: #00a6ae; padding: 40px 25px; color: #000; height: 100%;}
+section.project-sec .joorno-doc .title{font-size: 20px; margin-bottom: 20px;}
+section.project-sec .joorno-doc .text{font-size: 13px; font-weight: 400; line-height: 28px;}
+
+section.project-sec .joorno-card{height: 100%; overflow: hidden;}
+section.project-sec .joorno-card img{width: 100%; height: auto;}
+section.project-sec .joorno-card .title{padding: 10px 15px 12px 15px; font-size: 20px; font-weight: 500;}
+section.project-sec .joorno-card .text{font-size: 14px; font-weight: 300; padding: 0 15px; line-height: 23px; margin: 0;}
+section.project-sec .joorno-card .text p{margin: 0; padding: 0;}
+
+
+section.resource-sec{padding-top: 140px;padding-bottom: 50px;}
+section.resource-sec .resource-disc-card{height: 265px; padding: 25px; margin-bottom: 25px;}
+section.resource-sec .resource-disc-card .title{font-size: 20px; text-align: center; padding-bottom: 7px;}
+section.resource-sec .resource-disc-card .text{font-size: 12px; font-weight: 300; line-height: 23px;}
+section.resource-sec .b .resource-disc-card{background-color: #00a6ae;}
+section.resource-sec .g .resource-disc-card{background-color: #d7e228;}
+section.resource-sec .y .resource-disc-card{background-color: #f0c92f;}
+
+section.resource-sec .content-card{position: relative;background: #f1f2f2; padding: 25px 40px 25px 25px; border-right: 1px solid; overflow: hidden; height: 150px; margin-bottom: 8px;}
+section.resource-sec .content-card .title{font-size: 18px; display: inline-block;}
+section.resource-sec .content-card .download{float: left;display: inline-block; text-align: left; color: #333; font-size: 11px; font-weight: 300;}
+section.resource-sec .content-card .download .icon{display: inline-block; font-size: 19px; vertical-align: middle;}
+section.resource-sec .content-card .text{padding-right: 10px;;font-weight: 300;color: #333; font-size: 12px; line-height: 22px; text-align: justify; overflow: hidden; height: 80px;}
+section.resource-sec .content-card .arrow{position: absolute;top:80px; right: 13px; color:#999; font-size:25px;}
+section.resource-sec .b .content-card{border-color: #00a6ae;}
+section.resource-sec .g .content-card{border-color:  #d7e228;}
+section.resource-sec .y .content-card{border-color:  #f0c92f;}
+
+section.blog-sec{padding-top: 140px; padding-bottom: 50px;}
+section.blog-sec img{width: 100%; height: auto;}
+section.blog-sec .top-post{margin-bottom: 80px;}
+section.blog-sec .top-post .title{font-size: 23px; padding-bottom: 15px;}
+section.blog-sec .top-post .text{font-size: 17px; font-weight: 300; line-height: 23px;}
+section.blog-sec .top-post .date{color:#d7e228; font-size: 17px; font-weight: 300; padding-top: 5PX;}
+
+section.blog-sec .search-form form{height:70px; border: 1px solid #bbb; padding: 0; margin: 0; line-height: 70px; margin-bottom: 70px;}
+section.blog-sec .search-form form input[type="text"]{height: 68px; background: none; display: block;border:none; padding: 0; margin: 0; width: 100%; line-height: 70px; text-indent: 100px; border-left: 1px solid #bbb; color:#b6b6b6;}
+section.blog-sec .search-form form ul.select{ background: #fff; height: 67px; display: inline-block; padding: 0 60px 20px 20px; color:#b6b6b6; position: relative; text-align: center; font-size: 16px; font-weight: 300; overflow: hidden; max-height: 67px;}
+section.blog-sec .search-form form ul.select.active{height: auto; max-height: 300px;}
+section.blog-sec .search-form form ul.select li{height:67px; display: block;}
+section.blog-sec .search-form form ul.select i.icon{position: absolute;font-size: 30px;top: 21px;color: #d6d6d6;right: 13px;line-height: 10px;}
+section.blog-sec .search-form form input[type="submit"]{background: #00a6ae; border: none; position: absolute;top:1px; left: 16px; height: 68px; width: 68px; display: block;color:#fff; font-family:  "joorno" !important; text-align: center; line-height: 68px; font-size: 38px;}
+
+section.blog-sec .blog-card{height: 560px; margin-bottom: 30px; overflow: hidden;}
+section.blog-sec .blog-card .title{padding: 0 20px 20px 20px; font-size: 23px;}
+section.blog-sec .blog-card .text{padding: 0 20px 10px 20px ; font-size: 17px; font-weight: 300; line-height: 23px;}
+section.blog-sec .blog-card .date{color:#d7e228; font-size: 17px; padding: 0 20px;}

@@ -138,4 +138,9 @@
 .jo-gplus:before {
   content: "\6b";
 }
-
+.jo-chevron-down:before {
+  content: "\6c";
+}
+.jo-menu:before {
+  content: "\6d";
+}
